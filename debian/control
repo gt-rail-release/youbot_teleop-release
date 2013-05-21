@@ -1,0 +1,12 @@
+Source: ros-groovy-youbot-teleop
+Section: misc
+Priority: extra
+Maintainer: Russel Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-joy, ros-groovy-roscpp
+Homepage: http://ros.org/wiki/rail_youbot_teleop
+Standards-Version: 3.9.2
+
+Package: ros-groovy-youbot-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-joy, ros-groovy-rosconsole, ros-groovy-roscpp
+Description: The rail_youbot_teleop package contains nodes to control the youBot base via a joystick or keyboard.
