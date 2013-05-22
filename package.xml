@@ -1,21 +1,25 @@
 <?xml version="1.0"?>
 <package>
   <name>youbot_teleop</name>
-  <version>0.1.0</version>
-  <description>The rail_youbot_teleop package contains nodes to control the youBot base via a joystick or keyboard.</description>
-  <maintainer email="rctoris@wpi.edu">Russel Toris</maintainer>
-  <author>Russell Toris</author>
-  <license>BSD</license>
-  <url type="website">http://ros.org/wiki/rail_youbot_teleop</url>
+  <version>0.1.1</version>
+  <description>Joystick and Keyboard Teleoperation for the KUKA youBot</description>
+
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <author email="rctoris@wpi.edu">Russell Toris</author>
+  <author email="tjay@cs.brown.edu">Graylin Trevor Jay</author>
+
+  <license>LGPL 2.1 or BSD</license>
+
+  <url type="website">http://ros.org/wiki/youbot_teleop</url>
   <url type="bugtracker">https://github.com/WPI-RAIL/youbot_teleop/issues</url>
   <url type="repository">https://github.com/WPI-RAIL/youbot_teleop</url>
 
   <buildtool_depend>catkin</buildtool_depend>
+
   <build_depend>roscpp</build_depend>
   <build_depend>joy</build_depend>
   <build_depend>geometry_msgs</build_depend>
-
-  <run_depend>rosconsole</run_depend>
+  
   <run_depend>roscpp</run_depend>
   <run_depend>joy</run_depend>
   <run_depend>geometry_msgs</run_depend>
